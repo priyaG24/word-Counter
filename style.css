@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #3b3b3b;
+}
+#head {
+  text-align: center;
+  background-color: black;
+  color: #ffdd40;
+  padding: 10px;
+}
+#textarea {
+  width: 100%;
+}
+#para {
+  text-align: center;
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffdd40;
+  padding: 10px;
+}
+body {
+  height: 100px;
+  position: relative;
+  animation: head 5s;
+}
+@keyframes head {
+  from {
+    left: -50%;
+  }
+  to {
+    left: 15px;
+  }
+}
