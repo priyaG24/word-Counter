@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        padding: 50px 450px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #3b3b3b;
+      }
+      #head {
+        text-align: center;
+        background-color: black;
+        color: #ffdd40;
+        padding: 10px;
+      }
+      #textarea {
+        width: 100%;
+      }
+      #para {
+        text-align: center;
+        background-color: black;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffdd40;
+        padding: 10px;
+      }
+      body {
+        height: 100px;
+        position: relative;
+        animation: head 5s;
+      }
+      @keyframes head {
+        from {
+          left: -50%;
+        }
+        to {
+          left: 15px;
+        }
+      }
+    </style> -->
+  </head>
+  <body>
+    <h1 id="head">Word and Character Counter</h1>
+    <textarea
+      name=""
+      id="textarea"
+      cols="10"
+      rows="15"
+      placeholder="Type or paste something here..."
+      style="color: #000000, font-weight= 'bold'"
+    ></textarea
+    ><br />
+    <p id="para">
+      <span id="word">0</span> words and <span id="char">0</span> characters.
+    </p>
+    <script src="script.js"></script>
+
+    <!-- <script>
+      let textbox = document.getElementById("textarea");
+      textbox.addEventListener("input", function () {
+        var text = this.value;
+        // console.log(text);
+        let char = text.length;
+        // console.log(char);
+        document.getElementById("char").innerHTML = char;
+        // to remove extra space
+        text = text.trim();
+        let words = text.split(" ");
+        // console.log(words);
+        document.getElementById("word").innerHTML = words.length;
+      });
+    </> -->
+  </body>
+</html>
